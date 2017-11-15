@@ -1,0 +1,100 @@
+body {
+    background-color: darkcyan;
+    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 80%;
+    margin: 0 auto;
+
+}
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* float: left; */
+    margin: 0 auto;
+    /* margin-bottom: 1.5em; */
+    background-color: gold;
+    /* margin: auto 0; */
+
+}
+nav li {
+    display: inline;
+    background-color: gold;
+    padding: 10px;
+    margin-right: 5px;
+    /* width: 8em; */
+    border: 3px solid black;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* margin-left: 0; */
+    /* height: 6em; */
+    /* width: 5em; */
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+
+nav li:hover {
+    color: gold;
+    background-color: black;
+    border: 3px solid gold;
+}
+nav li a:hover {
+    color: gold;
+}
+footer {
+    background-color: gainsboro;
+    color: #ff00ff;
+    text-align: center;
+    clear: both;
+}
+
+header h2 {
+    border: 2px solid gold;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#largest {
+    background-color: gold;
+    padding: 6px;
+}
+
+main {
+    float: left;
+    width: 60%;
+    
+}
+
+
+aside {
+    float: right;
+    width: 39%;
+}
+main h1 {
+    text-align: center;
+    color: gold;
+    font-weight: 900;
+}
+
+.container,
+header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#largeimg img {
+    display: block;
+    width: 80%;
+    border-radius: 10px;
+    margin: 150px auto 0 auto;
+    /* border-collapse: ; */
+    overflow: hidden;
+}
