@@ -1,39 +1,27 @@
 body {
     background-color: darkcyan;
-    
 }
-
 header {
     position: fixed;
     top: 0;
     width: 80%;
     margin: 0 auto;
-
 }
 nav {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* float: left; */
     margin: 0 auto;
-    /* margin-bottom: 1.5em; */
     background-color: gold;
-    /* margin: auto 0; */
-
 }
 nav li {
     display: inline;
     background-color: gold;
     padding: 10px;
     margin-right: 5px;
-    /* width: 8em; */
     border: 3px solid black;
     border-radius: 25px;
     font-family: Arial, Helvetica, sans-serif;
-
-    /* margin-left: 0; */
-    /* height: 6em; */
-    /* width: 5em; */
 }
 nav li a {
     text-decoration: none;
@@ -70,10 +58,7 @@ header h2 {
 main {
     float: left;
     width: 60%;
-    
 }
-
-
 aside {
     float: right;
     width: 39%;
@@ -83,18 +68,37 @@ main h1 {
     color: gold;
     font-weight: 900;
 }
-
 .container,
 header {
     width: 90%;
     margin: 0 auto;
 }
-
 #largeimg img {
     display: block;
     width: 80%;
     border-radius: 10px;
     margin: 150px auto 0 auto;
-    /* border-collapse: ; */
     overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background-color: gold;
+    justify-content: space-evenly;
+    -webkit-justify-content: space-evenly;
+    margin: 2em auto;
+}
+.flex-item {
+    background-color: gold;
+    border: 1px solid darkcyan;
+    padding: .3em;
+    width: 24%;
+    text-align: center;
+}
+.flex-item img {
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 10px;
 }
